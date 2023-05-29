@@ -1,4 +1,3 @@
-import useMediaQuery from '@/hooks/useMediaQuery';
 import { HcoursesType, SelectedPage } from '@/shared/types';
 import { motion } from 'framer-motion';
 import Hcourse from './Hcourse';
@@ -22,9 +21,7 @@ type Props = {
     setSelectedPage: (value: SelectedPage) => void;
 }
 
-const Home = ( { setSelectedPage }: Props) => {
-    const isAboveMediumScreens = useMediaQuery("(min-width:1060px)");
-  
+const Home = ( { setSelectedPage }: Props) => {  
     return <section
         id="home"
         className="gap-16 bg-mysecondary-300 py-10 md:h-full md:pb-0"

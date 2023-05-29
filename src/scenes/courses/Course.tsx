@@ -1,6 +1,5 @@
 import ActionButton from '@/shared/ActionButton';
 import { SelectedPage } from '@/shared/types';
-import AnchorLink from 'react-anchor-link-smooth-scroll';
 
 type Props = {
     title: string;

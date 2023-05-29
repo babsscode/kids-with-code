@@ -2,7 +2,6 @@ import { AboutboxType, SelectedPage } from '@/shared/types';
 import { motion } from "framer-motion";
 import Aboutbox from "./Aboutbox";
 import useMediaQuery from "@/hooks/useMediaQuery";
-import ActionButton from '@/shared/ActionButton';
 import AnchorLink from 'react-anchor-link-smooth-scroll';
 
 const aboutboxes: Array<AboutboxType> = [

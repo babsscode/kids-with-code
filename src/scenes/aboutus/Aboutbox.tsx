@@ -1,6 +1,3 @@
-import ActionButton from '@/shared/ActionButton';
-import { SelectedPage } from '@/shared/types';
-
 type Props = {
     description: string;
 };

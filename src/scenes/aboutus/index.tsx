@@ -28,7 +28,7 @@ const AboutUs = ({ setSelectedPage }: Props) => {
 
   return <section
     id="aboutus"
-    className="bg-myprimary-100 py-10 md:h-full md:pb-0"
+    className="bg-myprimary-100 py-10 md:h-[800px] w-full md:pb-0"
   >
     <motion.div
       onViewportEnter={() => setSelectedPage(SelectedPage.AboutUs)}

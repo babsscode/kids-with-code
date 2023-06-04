@@ -49,7 +49,7 @@ function Courses({ setSelectedPage }: Props) {
   return (
     <section 
     id="courses"
-    className="bg-mysecondary-300 py-10 md:h-full">
+    className="bg-mysecondary-300 py-[2.9rem] md:h-[800px] w-full">
     <motion.div
       onViewportEnter={() => setSelectedPage(SelectedPage.Courses)}/>
     <div className='my-10 mx-10 md:mx-32 md:flex gap-16 h-7/8 items-center basis-7/8 justify-center'>

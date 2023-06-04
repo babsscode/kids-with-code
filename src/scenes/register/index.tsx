@@ -11,7 +11,7 @@ const Register = ({ setSelectedPage }: Props) => {
   return (
     <section
       id="register"
-      className="gap-16 bg-myprimary-100 py-10 md:h-full md:pb-0">
+      className="gap-16 bg-myprimary-100 py-10 md:h-[800px] w-full md:pb-0">
       <motion.div 
         onViewportEnter={() => setSelectedPage(SelectedPage.Register)}
       />

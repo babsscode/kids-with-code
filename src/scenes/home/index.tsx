@@ -24,7 +24,7 @@ type Props = {
 const Home = ( { setSelectedPage }: Props) => {  
     return <section
         id="home"
-        className="gap-16 bg-mysecondary-300 py-10 md:h-full md:pb-0"
+        className="gap-16 bg-mysecondary-300 py-10 md:h-[800px] w-full md:pb-0"
     >
         {/* main header and course boxes*/}
         <motion.div 
@@ -34,7 +34,7 @@ const Home = ( { setSelectedPage }: Props) => {
             {/* main header*/}
             <div className='mt-20 md:mb-0 md:basis-6/8'>
                 {/* heading */}
-                <p className='text-[3.5rem] md:text-[7.5rem] text-left leading-[8rem]'>KIDS WITH CODE</p>
+                <p className='text-[3.5rem] md:text-[7.5rem] text-left leading-[5rem] md:leading-[8rem]'>KIDS WITH CODE</p>
                 <br/>
                 <hr/>
                 <br/>

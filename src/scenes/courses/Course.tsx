@@ -18,7 +18,7 @@ function Course({title, date, age, description, list, setSelectedPage}: Props) {
         <h1 className="my-3 text-xl md:text-2xl">{age}</h1>
         <p className='my-3 text-lg md:text-xl'>{description}</p>
         <div className='mt-3 text-lg mb-5 md:text-xl text-center'>{list}</div>
-        <ActionButton setSelectedPage={setSelectedPage}>register now!</ActionButton>
+        <ActionButton setSelectedPage={setSelectedPage}>Register Now!</ActionButton>
     </div>
   )
 }

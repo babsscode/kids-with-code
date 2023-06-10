@@ -19,7 +19,7 @@ function Hcourse({title, date, description, setSelectedPage}: Props) {
           onClick={() => setSelectedPage(SelectedPage.Courses)}
           href={`#${SelectedPage.Courses}`}
     >
-        <p>learn more</p>
+        <p>Learn More</p>
     </AnchorLink>
     </div>
   )

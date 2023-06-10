@@ -5,38 +5,38 @@ import Course from './Course';
 const thecourses: Array<CourseType> = [
     {
         title: <p>Python<br/>Fundemnetals</p>,
-        date: "summer 2023",
-        age: "age group: 10-14",
+        date: "Summer 2023",
+        age: "Age Group: 10-14",
         description:
-            "learn beginner python objectives such as variables, conditionals, loops & more!",
+            "Learn beginner python objectives such as variables, conditionals, loops & more!",
         list:
             <div>
-                <li>completely free</li>
-                <li>all lessons are virtual</li>
-                <li>build 3 working games</li>
-                <li>create and publish your very own project!</li>
-                <li>easy to understand lessons</li>
+                <li>Completely free</li>
+                <li><u>Virtual</u> lessons</li>
+                <li>Build 3 working games</li>
+                <li>Create & publish your very own project!</li>
+                <li>Easy to understand lessons</li>
                 <li>5-week course</li>
-                <li className='pl-8'>lessons twice a week</li> 
-                <li>receive certificate</li>
+                <li className='pl-8'>Lessons twice a week</li> 
+                <li>Receive a certificate</li>
             </div>
     },
     {
         title: "Scratch Fundemnetals",
-        date: "summer 2023",
-        age: "age group: 5-9",
+        date: "Summer 2023",
+        age: "Age Group: 5-9",
         description:
-            "learn basic coding skills through a block-based interactive programming language!",
+            "Learn basic coding skills through an interactive block-based programming language!",
         list:
         <div>
-            <li>completely free</li>
-            <li>all lessons are virtual</li>
-            <li>build 3 working projects</li>
-            <li>beginner content designed for younger kids</li>
-            <li>easy and fun!</li>
-            <li>3-week course </li>
-            <li className='pl-8'>lessons twice a week</li> 
-            <li>receive certificate</li>
+            <li>Completely free</li>
+            <li><u>Virtual</u> lessons</li>
+            <li>Build 3 working projects</li>
+            <li>Beginner content designed for younger kids</li>
+            <li>Easy and fun!</li>
+            <li>5-week course</li>
+            <li className='pl-8'>Lessons twice a week</li> 
+            <li>Receive a Certificate</li>
         </div>
     }
 ]

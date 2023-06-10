@@ -38,33 +38,33 @@ const AboutUs = ({ setSelectedPage }: Props) => {
         <div>
           <div className="h-[170px] w-full bg-mysecondary-300 py-5">
             <div className="mx-32 my-10 h-10 text-lg flex items-center justify-between gap-16 text-center">
-                <p>Our curriculum as been reviewed and approved by experienced software engineers in the industry!</p>
-                <p>All courses are free with ZERO fees! And you will receive a certificate upon completing the course!</p>
-                <p>Taught by skilled high school  students that a strong background in computer science!</p>
+                <p>Our curriculum has been reviewed and approved by experienced software engineers in the industry.</p>
+                <p>All KWC courses are free with ZERO hidden fees. Additionally, you will receive a certificate upon completing the course!</p>
+                <p>Taught by skilled high school students that have a strong background in computer science.</p>
               </div>
           </div>
           <div className='flex gap-16 mx-10 items-center justify-center'>
               <iframe src="https://drive.google.com/file/d/1HUZC0HuxQIFIa-5pp-UnzsAoDUESKCuh/preview" width="450" height="480" allow="autoplay" className='my-10'>
-                Video cannot be loaded at this time.
+                The video cannot be loaded at this time.
                 This video is a demo of the Pizza Guessing game.
               </iframe>
               <div className='text-mysecondary-300 p-5 text-center w-3/6'>
               <p className='text-5xl pb-6'>Project Demo</p>
-              <p className='text-xl'> This project is an example what projects are made in the <u>Python Fundemnetals</u> course! At the end of both courses our intructers help you child brainstorm, create, and publish a unique project using the skills they learned.
-              <br/> As shown in the video the projects make with our students contain fundamental concepts such as:</p>
+              <p className='text-xl'> This is an example of the type of projects made in the <u>Python Fundamentals</u> course! At the end of each course our teachers help the kids brainstorm, create, and publish their own unique project using the skills they learned.
+              <br/> As shown in the video the projects our students make contain fundamental concepts such as:</p>
                 <div className='text-xl text-center mt-2'>
-                  <li>variables</li>
-                  <li>conditionals</li>
-                  <li>loops</li>
-                  <li>functions</li>
-                  <li>and more!</li>
+                  <li>Variables</li>
+                  <li>Conditionals</li>
+                  <li>Loops</li>
+                  <li>Functions</li>
+                  <li>And more!</li>
                 </div>
                 <div className='mt-6'>
                 <AnchorLink
                   className="rounded-full text-white text-lg bg-mysecondary-300 px-12 py-2 hover:bg-mysecondary-100 hover:text-black"
                   onClick={() => setSelectedPage(SelectedPage.Register)}
                   href={`#${SelectedPage.Register}`}
-                >sign up now!</AnchorLink>
+                >Sign Up Now!</AnchorLink>
                 </div>
               </div>
           </div>

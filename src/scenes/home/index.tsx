@@ -4,16 +4,16 @@ import Hcourse from './Hcourse';
 
 const homecourses: Array<HcoursesType> = [
     {
-        title: "Python Fundemnetals",
-        date: "summer 2023",
+        title: "Python Fundamentals",
+        date: "Summer 2023",
         description:
-            "learn beginner python objectives such as variables, conditionals, loops & more!"
+            "Learn beginner python objectives such as variables, conditionals, loops & more!"
     },
     {
         title: "Scratch Fundemnetals",
-        date: "summer 2023",
+        date: "Summer 2023",
         description:
-            "learn basic coding skills through a block-based interactive programming language!"
+            "Learn basic coding skills through an interactive block-based programming language!"
     }
 ]
 
@@ -39,11 +39,7 @@ const Home = ( { setSelectedPage }: Props) => {
                 <hr/>
                 <br/>
                 <p className='mt-4 text-lg text-myprimary-100'>
-                    <li>All courses are free!</li>
-                    <li>Project-focused</li>
-                    <li className='pl-8'>No boring lectures</li>
-                    <li>learn fundamental coding concepts</li>
-                    <li>engaging lessons</li>
+                    KWC is now offering FREE summer courses! These courses are perfect for beginner coders. Through project-focused curriculum we teach kids fundamental coding concepts. Additionally we make sure that the lessons are fun and engaging inorder to motivate kids to keep coding!
                 </p>
             </div>
             {/* course boxes*/}

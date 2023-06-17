@@ -7,11 +7,11 @@ import AnchorLink from 'react-anchor-link-smooth-scroll';
 const aboutboxes: Array<AboutboxType> = [
   {
       description:
-          "Our curriculum as been reviewed and approved by experienced software engineers in the industry!"
+          "Our curriculum has been reviewed and approved by experienced software engineers in the industry!"
   },
   {
       description:
-          "All courses are free with ZERO fees! And you will receive a certificate upon completing the course!"
+          "All courses are FREE with ZERO fees! And you will receive a certificate upon completing the course!"
   },
   {
     description:
